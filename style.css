@@ -1,0 +1,97 @@
+body{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    /* text-decoration: none; */
+    background: url(fit2.jpg);
+    height: 1250px;
+    font-family:'Cantora One', sans-serif;   
+}   
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    top: 20px;
+    font-size: 18px;
+}
+.left img{
+    width: 74px;
+    /* filter: invert(100%); */
+    padding-left: 16px;
+}
+.left div{
+    text-align: center;
+    font-family: 'Mogra', system-ui;
+    font-weight: 800;
+}
+.mid{
+    display: block;
+    width: 57%;
+    margin: 20px auto;
+    
+}
+.right{
+    position: absolute;
+    right: 36px;
+    top: 32px;
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+     color: white;
+    text-decoration: none;
+    padding: 34px;
+}
+.navbar li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 7px 15px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family:'Cantora One', sans-serif;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid white;
+    margin: 82px 118px;
+    padding: 61px 66px;
+    width: 36%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px turquoise;
+}
+.form-group input{
+    font-family: 'Mogra', system-ui;
+    text-align: center;
+    display: block;
+    width: 421px;
+    padding: 4px 6px;
+    margin: 5px auto;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 80%;
+    margin: 18px auto;
+}
